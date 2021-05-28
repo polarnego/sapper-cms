@@ -1,2 +1,5 @@
+[functions]
+    directory = "src/functions"
+
 [build]
     functions = "dist/functions"

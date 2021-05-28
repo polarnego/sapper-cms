@@ -6,8 +6,8 @@
 		"dev": "sapper dev",
 		"build": "cross-env NODE_ENV=production sapper build --legacy",
 		"export": "cross-env NODE_ENV=production sapper export --legacy",
-		"dev-func": "netlify-lambda serve src/functions",
-		"build-func": "netlify-lambda build src/functions",
+		"dev-func": "netlify-lambda serve src/functions/hello-world",
+		"build-func": "netlify-lambda build src/functions/hello-world",
 		"start": "node __sapper__/build"
 	},
 	"dependencies": {

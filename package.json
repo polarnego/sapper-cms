@@ -6,6 +6,7 @@
 		"dev": "sapper dev",
 		"build": "cross-env NODE_ENV=production sapper build --legacy",
 		"export": "cross-env NODE_ENV=production sapper export --legacy",
+		"dev-func": "netlify-lambda serve src/functions",
 		"start": "node __sapper__/build"
 	},
 	"dependencies": {
@@ -28,6 +29,7 @@
 		"cross-env": "7.0.3",
 		"cssnano": "5.0.4",
 		"faunadb": "^4.3.0",
+		"netlify-lambda": "^2.0.7",
 		"postcss": "8.3.0",
 		"postcss-import": "14.0.2",
 		"postcss-load-config": "3.0.1",
